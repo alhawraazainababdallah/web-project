@@ -1,0 +1,59 @@
+.subtext{
+    font-size: var(--fs-bodytitle);
+    line-height: 2rem;
+}
+#a{
+    animation: textcolor 2s linear infinite;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#a:hover{
+    animation: textcolor 400ms linear infinite;
+}
+#ul{
+    list-style: circle;
+    margin: 0.625rem;
+    margin-left: 6.25rem;
+    
+}
+.who{
+    width: 42.25rem;
+    height:9.813rem;
+}
+.mainabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 58.125rem;
+    margin: auto;
+
+}
+.gameinfo{
+    width: 36rem;
+    height:9.813rem;
+   margin-bottom: 9.375rem;
+}
+.questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 36rem;
+    height:9.813rem;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 28.125rem;
+
+}
+
+.imgend{
+    border-radius: 1.875rem;
+    height: 26.336rem ;
+    width: 25.25rem;
+    padding-bottom: 0.625rem;
+}

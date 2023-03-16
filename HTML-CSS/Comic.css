@@ -1,0 +1,17 @@
+img{
+    border-radius:15px ;
+}
+.link {
+    text-decoration: underline;
+}
+.header-subtitle{
+    color: var(--color-neutral);
+
+}
+.main-manga,
+.side-manga{
+    display: grid;
+    align-items: center;
+    margin: 3rem;
+    justify-items: center;
+}

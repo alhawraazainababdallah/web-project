@@ -1,0 +1,28 @@
+
+.text-footer{
+    width: 689px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--size-nf) ;
+    font-size: var(--fs-footer);
+    font-weight: var(--fw-semibold);
+    color: var(--color-neutral);
+    text-decoration: none;
+
+}
+#footer-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+
+#bkfooter{
+    background-color: var(--color-secondary-darkred);
+    border-radius: 30px;
+    width: 1400px;
+    height: 5px;
+}

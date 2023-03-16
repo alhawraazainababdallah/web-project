@@ -1,0 +1,153 @@
+/*Images*/
+.paymentimg{
+    width: 18.125rem;
+    height: 18.125rem;
+
+}
+[class*="merchimg"]
+{
+    width: 36rem;
+    height: 36rem;
+}
+.discord{
+    width: 16rem;
+    height: 12.386rem;
+}
+
+
+/*Cards*/
+.header-subtitle{
+    color: var(--color-neutral);
+}
+.donation{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.paymentitle{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.paymentcards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.lowcost,
+.midtier,
+.highend{
+    border-radius: 40px;
+    background-color: var(--color-neutraltext);
+    opacity: 0.8;
+    width: 20.75rem ;
+    height: 29.75rem ;
+    display: grid;
+    justify-items: center;
+    cursor: pointer;
+    margin: 1.5rem;
+    margin-top: 6rem;
+    transition: 250ms ease-in-out;
+    position: relative;
+}
+.lowcost:hover,
+.midtier:hover,
+.highend:hover{
+    background-color: var(--color-neutral);
+    opacity: 1;
+    width: 22.5rem ;
+    height: 29.75rem ;
+    transform: translateY(-2rem);
+}
+.paymenttitle{
+    position: absolute;
+    bottom: 10rem;
+    left: 2rem;
+}
+.ptitle{
+    color: var(--color-primary);
+    font-size: var(--fs-titlev2);
+}
+.ptext{
+    color: var(--color-primary);
+    font-size: var(--fs-nav);
+    padding: 1rem;
+}
+
+/*discord*/
+.discord{
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.discordbox{
+    background-color:  #d0cfcf95; 
+    border-radius: 6px;
+    margin: 1rem;
+}
+
+
+.merchtext{
+    margin: 3rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+.merchimgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 36rem;
+    height: 50rem;
+    margin:auto;
+    margin-top: 3rem;
+}
+.merch1{
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    top: -26px;
+    right: -49px;
+    z-index: 0;
+}
+.merch2{
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    top: 100px;
+    left: 393px;
+    z-index: 1;
+}
+.merch3{
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    top: 400px;
+    bottom: 50px;
+    right: 0px;
+    z-index: 4;
+    
+}
+.merch4{
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    top: 121px;
+    bottom: 50px;
+    right: 323px;
+    z-index: 3;
+}
+
+
