@@ -4,7 +4,7 @@ A responsive web application built with HTML, CSS, and JavaScript.
 
 ## Project Screenshots
 
-You can find the projects screenshots inside .\Yandare Sim Figma Design.pdf
+You can find the projects screenshots inside ./Yandare Sim Figma Design.pdf
 
 ## Features
 
